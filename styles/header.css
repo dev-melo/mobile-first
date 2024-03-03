@@ -1,0 +1,61 @@
+:root{
+    --bkg-color: #FFFFFF;
+    --gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+
+    --font-color-orange: #EB9B00;
+}
+
+.container-header-menu{
+    width: 24px;
+    height: 24px;
+    background-image: url("/assets/Menu.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-header-base{
+    background-color: var(--bkg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;   
+}
+
+.container-img{
+    padding: 1em;
+}
+
+/* Ao clicar no botão mostra o menu */
+.container-header-button:checked ~ .menu-list{
+    display: block;
+}
+
+.menu-list{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.menu-list-title, 
+.menu-list-item{
+    padding: 1em;
+    background-color: var(--bkg-color);
+}
+
+.menu-list-title{
+    color: var(--font-color-orange);
+}
+.menu-list-link{
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
