@@ -1,0 +1,6 @@
+.carrousel-title{
+    font-family: var(--main-font);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--font-color-orange);
+}
