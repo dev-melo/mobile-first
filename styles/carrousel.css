@@ -1,6 +1,32 @@
+.carrousel{
+
+}
+
+
 .carrousel-title{
     font-family: var(--main-font);
     font-weight: 700;
+    text-align: center;
     text-transform: uppercase;
     color: var(--font-color-orange);
+
+    font-size: 18px;
+
+    padding: 1em 0 0.5em 0;
+
+    background-color: var(--white);
+}
+
+
+.swiper-pagination{
+    position: initial;
+    margin: .5em 0;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
 }
