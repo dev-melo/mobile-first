@@ -76,9 +76,17 @@
         </div>
 
         <div class="container-header">
-            <a href="#"><img src="assets/Favoritos.svg" alt="Favoritos" class="container-img img-transparent"></a>
-            <a href="#"><img src="assets/Compras.svg" alt="Sacola" class="container-img"></a>
-            <a href="#"><img src="assets/Usuario.svg" alt="Usuario" class="container-img"></a>
+            <a href="#">
+                <img src="assets/Favoritos.svg" alt="Favoritos" class="container-img img-transparent">
+            </a>
+            <a href="#" class="container-header-link">
+                <img src="assets/Compras.svg" alt="Sacola" class="container-img">
+                <p class="text-transparent">Minha sacola</p>
+            </a>
+            <a href="#" class="container-header-link">
+                <img src="assets/Usuario.svg" alt="Usuario" class="container-img">
+                <p class="text-transparent">Meu perfil</p>
+            </a>
         </div>
     </header>
     <section class="container-banner">
@@ -89,56 +97,57 @@
     <section class="carrousel">
         <h2 class="carrousel-title">Últimos lançamentos</h2>
 
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="/assets/Books/ApacheKafka.svg" alt="Livro Apache Kafka"></div>
-                <div class="swiper-slide"><img src="/assets/Books/Nodejs.svg" alt="Livro NodeJs"></div>
-                <div class="swiper-slide"><img src="/assets/Books/ReactNative.svg" alt="Livro React Native"></div>
-                <div class="swiper-slide"><img src="/assets/Books/Tuning.svg" alt="Livro Tuning"></div>
-                <div class="swiper-slide"><img src="/assets/Books/UX.svg" alt="Livro UX"></div>
-                <div class="swiper-slide"><img src="/assets/Books/Portugol.svg" alt="Livro Portugol"></div>
-                ...
-            </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-
-        <div class="container-card">
-            <!-- 1º Linha -->
-            <div class="card-description">
-                <!-- 1º Coluna -->
-                <div class="description">
-                    <h3 class="description-title">Talvez você se interesse por...</h3>
-                    <h2 class="description-title-book">Angular 11 e Firebase</h2>
-                    <p class="description-text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+        <div class="container-carrousel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/assets/Books/ApacheKafka.svg" alt="Livro Apache Kafka"></div>
+                    <div class="swiper-slide"><img src="/assets/Books/Nodejs.svg" alt="Livro NodeJs"></div>
+                    <div class="swiper-slide"><img src="/assets/Books/ReactNative.svg" alt="Livro React Native"></div>
+                    <div class="swiper-slide"><img src="/assets/Books/Tuning.svg" alt="Livro Tuning"></div>
+                    <div class="swiper-slide"><img src="/assets/Books/UX.svg" alt="Livro UX"></div>
+                    <div class="swiper-slide"><img src="/assets/Books/Portugol.svg" alt="Livro Portugol"></div>
+                    ...
                 </div>
-                <!-- 2º Coluna -->
-                <img src="assets/Angular.svg" alt="Logo do Angular" class="description-img">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
 
-            <!-- 2º Linha -->
-            <div class="card-buttons">
-                <!-- 1º Coluna -->
-                <ul class="buttons">
-                    <li class="buttons-item"><img src="assets/Favoritos.svg" alt="Favoritar livro"></li>
-                    <li class="buttons-item"><img src="assets/Compras.svg" alt="Adicionar ao carrinho"></li>
-                </ul>
+            <div class="container-card">
+                <!-- 1º Linha -->
+                <div class="card-description">
+                    <!-- 1º Coluna -->
+                    <div class="description">
+                        <h3 class="description-title">Talvez você também se interesse por...</h3>
+                        <h2 class="description-title-book">Angular 11 e Firebase</h2>
+                        <p class="description-text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <!-- 2º Coluna -->
+                    <img src="assets/Angular.svg" alt="Logo do Angular" class="description-img">
+                </div>
 
-                <!-- 2º Coluna -->
-                <a href="#" class="button-anchor">Saiba Mais</a>
+                <!-- 2º Linha -->
+                <div class="card-buttons">
+                    <!-- 1º Coluna -->
+                    <ul class="buttons">
+                        <li class="buttons-item"><img src="assets/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="buttons-item"><img src="assets/Compras.svg" alt="Adicionar ao carrinho"></li>
+                    </ul>
+
+                    <!-- 2º Coluna -->
+                    <a href="#" class="button-anchor">Saiba Mais</a>
+                </div>
             </div>
         </div>
-
     </section>
     <section class="carrousel">
         <h2 class="carrousel-title">Mais vendidos</h2>
-
+        <div class="container-carrousel">
         <!-- Slider main container -->
         <div class="swiper">
             <!-- If we need pagination -->
@@ -185,6 +194,8 @@
                 <!-- 2º Coluna -->
                 <a href="#" class="button-anchor">Saiba Mais</a>
             </div>
+        </div>
+
         </div>
     </section>
 

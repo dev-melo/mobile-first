@@ -67,7 +67,7 @@
     display: none;
 }
 
-.options{
+.options, .text-transparent{
     display:none;
 }
 
@@ -119,5 +119,26 @@
 
     .img-transparent{
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .text-transparent{
+        display: block;
+    }
+    
+    .container-header-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--black);
+    } 
+
+    .container-header-base{
+        padding: 0 2em;
+    }
+
+    .container-options{
+        margin-right: auto;
     }
 }
