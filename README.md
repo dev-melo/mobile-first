@@ -1,1 +1,1 @@
-Desenvolvimento de uma página web, com foco na responsibilidade. 
+Desenvolvimento de uma página web, com um design responsivo. 
