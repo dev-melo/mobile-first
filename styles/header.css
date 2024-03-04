@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
 :root{
+    --main-font: "Poppins", sans-serif;
+
     --bkg-color: #FFFFFF;
     --gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
 
@@ -29,6 +34,11 @@
 
 .container-img{
     padding: 1em;
+    
+}
+
+.container-header-button{
+    display: none;
 }
 
 /* Ao clicar no botão mostra o menu */
@@ -51,6 +61,8 @@
 
 .menu-list-title{
     color: var(--font-color-orange);
+    font-family: var(--main-font);
+    font-weight: 700;
 }
 .menu-list-link{
     background: var(--gradient);
@@ -58,4 +70,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+
+    font-family: var(--main-font);
+    font-weight: 400;
 }
