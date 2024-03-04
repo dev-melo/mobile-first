@@ -40,9 +40,43 @@
                 </li>
             </ul>
             <img src="/assets/Logo.svg" alt="Logo da AluraBooks" class="container-img">
+
+            <h1 class="container-title"><b class="container-title-bold">Alura</b>Books</h1>
+
         </div>
+
+        <div class="container-options">
+            <ul class="options">
+                <input type="checkbox" id="option-menu" class="options-button">
+                <label for="option-menu">
+                    <li class="options-item">Categorias</li>
+                </label>
+
+                <ul class="menu-list">
+                    <li class="menu-list-item">
+                        <a href="#" class="menu-list-link">Programação</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a href="#" class="menu-list-link">Front-End</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a href="#" class="menu-list-link">Infraestrutura</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a href="#" class="menu-list-link">Business</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a href="#" class="menu-list-link">Design & Ux</a>
+                    </li>
+                </ul>
+
+                <li class="options-item"><a href="#" class="options-link">Favoritos</a></li>
+                <li class="options-item"><a href="#" class="options-link">Minha estante</a></li>
+            </ul>
+        </div>
+
         <div class="container-header">
-            <a href="#"><img src="assets/Favoritos.svg" alt="Favoritos" class="container-img"></a>
+            <a href="#"><img src="assets/Favoritos.svg" alt="Favoritos" class="container-img img-transparent"></a>
             <a href="#"><img src="assets/Compras.svg" alt="Sacola" class="container-img"></a>
             <a href="#"><img src="assets/Usuario.svg" alt="Usuario" class="container-img"></a>
         </div>
@@ -133,7 +167,8 @@
                     <img src="assets/Star.svg" class="rating">
                     <h3 class="description-title">Autora do Mês</h3>
                     <h2 class="description-title-book">Juliana Agarikov</h2>
-                    <p class="description-text">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    <p class="description-text">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                    </p>
                 </div>
                 <!-- 2º Coluna -->
                 <img src="assets/Perfil-escritora 1.svg" alt="Escritor do mês" class="description-img">
@@ -158,7 +193,7 @@
 
         <ul class="topics-list">
             <li class="topics-item">
-               <a href="#" class="topics-link">Android</a>
+                <a href="#" class="topics-link">Android</a>
             </li>
             <li class="topics-item">
                 <a href="#" class="topics-link">Marketing Digital</a>
@@ -186,8 +221,10 @@
     </section>
 
     <section class="contact">
-        <h2 class="contact-title">Fique por dentro das novidades!</h2>
-        <p class="contact-text">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contact-desc">
+            <h2 class="contact-title">Fique por dentro das novidades!</h2>
+            <p class="contact-text">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contact-email">
     </section>
 
@@ -195,13 +232,103 @@
 
     <footer class="container-footer">
         <h2 class="footer-title">Grupo Alura</h2>
+
+        <ul class="footer-list">
+            <li class="footer-list-title">Educação</li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/CasaDoCodigo.svg" alt="Logo da Casa do Código">
+                <a href="#" class="footer-list-link">Casa do Código</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/Caelum.svg" alt="Logo da Caelum">
+                <a href="#" class="footer-list-link">Caelum</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li class="footer-list-title">Educação</li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/CasaDoCodigo.svg" alt="Logo da Casa do Código">
+                <a href="#" class="footer-list-link">Casa do Código</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/Caelum.svg" alt="Logo da Caelum">
+                <a href="#" class="footer-list-link">Caelum</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li class="footer-list-title">Educação Online</li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/Alura.svg" alt="Logo da Alura">
+                <a href="#" class="footer-list-link">Alura</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/AluraEmpresas.svg" alt="Logo da Alura para Empresas">
+                <a href="#" class="footer-list-link">Alura para Empresas</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/AluraLatam.svg" alt="Logo da Alura Latam">
+                <a href="#" class="footer-list-link">Alura Latam</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/AluraStart.svg" alt="Logo da Alura Start">
+                <a href="#" class="footer-list-link">Alura Start</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/MusicDot.svg" alt="Logo do MusicDot">
+                <a href="#" class="footer-list-link">MusicDot</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/AluraLingua.svg" alt="Logo da Alura Língua">
+                <a href="#" class="footer-list-link">Alura Língua</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/PM3.svg" alt="Logo do PM3">
+                <a href="#" class="footer-list-link">PM3</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li class="footer-list-title">Comunidade</li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/HipstersTech.svg" alt="Logo dos Hipster da Alura">
+                <a href="#" class="footer-list-link">Hipster ponto Tech</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/Scuba.svg" alt="Logo da Scuba Dev">
+                <a href="#" class="footer-list-link">Scuba Dev</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/Layers.svg" alt="Logo da Layers Ponto Tech">
+                <a href="#" class="footer-list-link">Layers ponto Tech</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/LikeABoss.svg" alt="Logo da Like a Boss">
+                <a href="#" class="footer-list-link">Like a Boss</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/CarreiraSemFronteira.svg" alt="Logo da Carreira sem Fronteira">
+                <a href="#" class="footer-list-link">Carreira sem Fronteira</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/HipstersJobs.svg" alt="Logo da Hipsters ponto Jobs">
+                <a href="#" class="footer-list-link">Hipsters ponto Jobs</a>
+            </li>
+            <li class="footer-list-item">
+                <img src="assets/Footer/GUJ.svg" alt="Logo da GUJ">
+                <a href="#" class="footer-list-link">GUJ</a>
+            </li>
+        </ul>
     </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: 10, 
+            spaceBetween: 10,
             slidesPerView: 3,
-            pagination:{
+            pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
             },

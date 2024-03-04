@@ -7,3 +7,36 @@ hr{
     padding: 1em;
 }
 
+.footer-list{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .container-footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-title{
+        font-size: 24px;
+    }
+
+    .footer-list{display: block;}
+
+    .footer-list-title{
+        color: var(--light-grey);
+        font-size: 14px;
+    }
+
+    .footer-list-item{
+        display: flex;
+        align-items: center;
+        margin: 0.5em 0;
+    }
+
+    .footer-list-link{
+        text-decoration: none;
+        color: var(--grey);
+        margin-left: 0.5em;
+    }
+}
