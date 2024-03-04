@@ -17,12 +17,12 @@
 
 .container-header{
     display: flex;
-    align-items: center;   
+    align-items: center; 
 }
 
 .container-img{
     padding: 1em;
-    
+    align-items: center;
 }
 
 .container-header-button{
@@ -44,7 +44,7 @@
 .menu-list-title, 
 .menu-list-item{
     padding: 1em;
-    background-color: var(--bkg-header-color);
+    background-color: var(--white);
 }
 
 .menu-list-title{
