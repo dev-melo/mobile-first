@@ -34,6 +34,15 @@
     display: block;
 }
 
+.container-header-button:checked ~ .container-menu > .container-header-menu{
+    background-image: url("/assets/Menu\ Aberto.svg");
+    
+}
+
+.container-header-button:checked ~ .container-menu{
+    background: var(--gradient);
+}
+
 .menu-list{
     display: none;
     position: absolute;
@@ -119,6 +128,24 @@
 
     .img-transparent{
         display: none;
+    }
+
+    .options-button:checked ~ .options-menu > .options-item{
+        background: var(--gradient);
+        color: var(--white);
+    }
+
+    .options-item{
+        padding: 2em 1em;
+    }
+
+    .menu-list-item:hover{
+        background: var(--gradient);
+    }
+
+    .menu-list-item:hover > .menu-list-link{
+        -webkit-text-fill-color: var(--white);
+        text-decoration: none;
     }
 }
 
